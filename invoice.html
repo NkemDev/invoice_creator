@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="invoice.css" rel="stylesheet">
+    <title>Invoice Creator App</title>
+</head>
+<body>
+    <main>
+        <section>
+            <h2>Invoice Creator</h2>
+            <p class="heading">Thanks for choosing Dynax Solutions, LLC!</p>
+        </section>
+        <section>
+            <div class ="invoicebtns ">
+                <button class="button" id="billwash">Wash Car: $10</button>
+                <button class="button" id ="mow">Mow Lawn: $20</button>
+                <button class="button" id ="billpull">Pull Weeds: $30</button>
+            </div>
+        </section>
+      <section>
+          <div class="task">
+              <p>TASK</p>
+              <p>TOTAL</p>
+          </div>
+          <div class ="bill">
+              <p id ="washCar"></p>
+              <p id ="washCarPrice"></p>
+          </div>
+          <div class ="bill">
+            <p id ="mowLawn"></p>
+            <p id ="mowLawnPrice"></p>
+          </div>
+          <div class ="bill">
+            <p id ="pullWeeds"></p>
+            <p id ="pullWeedsPrice"></p>
+          </div>
+          <div class ="bar"></div>
+      
+      <div class="task">
+        <p>NOTES</p>
+        <p>TOTAL  AMOUNT</p>
+    </div>
+    <div class="task">
+        <p id ="typeofcollection"></p>
+        <p id="totalamount"><b>$0</b></p>
+    </div>
+    <button class="sendbtn"><i class="fa fa-envelope" aria-hidden="true"></i> Send Invoice</button>
+    </section> 
+   
+    </main>
+    <script src ="invoice.js"></script>
+</body>
+</html>
