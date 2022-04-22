@@ -2,24 +2,31 @@ html,
 body {
   margin: 0;
   padding: 0;
-  height: 100%;
-  background-repeat: no-repeat;
-  background: linear-gradient( #F5F5F5 30%,  #FFFFFF 15% );
+  
+  
   color: black;
   font-family: Georgia, "Times New Roman", Times, serif;
-  text-align: center;
+ 
   font-size: 16px;
 }
+
+header{
+  background-color:#D5D4D8 ;
+  
+  text-align: center;
+}
 h2{
-    margin-top:2%;
-    margin-bottom:1%;
-    text-align: center;
-    font-size: 50px;
+  margin-top:0;
+  margin-bottom:1%;
+  
+  font-size: 50px;
+  padding:50px 0 10px 0;
 }
 .heading
 {
-    text-align: center;
+    
     font-size: 30px;
+    padding-bottom:20px;
 }
 .invoicebtns
 {   margin-top:12%;
