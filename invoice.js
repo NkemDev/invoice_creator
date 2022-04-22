@@ -57,7 +57,7 @@ function totalnotes(){
 
     for (let i = 0; i < totalbill.length; i++) {
      sum += totalbill[i];
-     totalamount.textContent=`$${sum}`
+     totalamount.textContent=`$${sum}`;
 
 }
 }
